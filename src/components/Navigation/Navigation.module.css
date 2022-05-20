@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  height: 68px;
+  background-color: var(--blue-color);
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_list {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}

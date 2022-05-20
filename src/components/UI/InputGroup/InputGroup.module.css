@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 100%;
+  max-width: 600px;
+  gap: 2rem;
+}
+.label {
+  font-weight: bold;
+  flex-grow: 1;
+}

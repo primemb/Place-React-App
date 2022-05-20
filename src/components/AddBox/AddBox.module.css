@@ -1,0 +1,29 @@
+.container {
+  width: 35%;
+  min-width: 710px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 1px solid rgb(47, 143, 233);
+}
+.title {
+  max-width: 100%;
+  border-top-left-radius: 19px;
+  border-top-right-radius: 19px;
+  background-color: rgb(47, 143, 233);
+  padding: 20px;
+}
+.title h4 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0.9rem;
+  gap: 2rem;
+}

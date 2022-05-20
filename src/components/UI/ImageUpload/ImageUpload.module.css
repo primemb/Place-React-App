@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 120px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgb(98, 168, 225);
+  border: 1px solid rgb(1, 106, 191);
+  cursor: pointer;
+  justify-content: flex-start;
+  align-items: center;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(3, 72, 168);
+  padding: 0.2rem 0;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2em;
+}
+.icon {
+  font-size: 3.5rem;
+  width: 100%;
+  height: 95px;
+  color: rgb(3, 72, 168);
+  text-align: center;
+}
