@@ -44,7 +44,7 @@ const MapElement = (props: IMapElementProps) => {
   if (initialPosition[0] === 0) {
     return <p>Lodaing...</p>;
   }
-  console.log("re-render");
+
   return (
     <MapContainer
       className={classes.container}
